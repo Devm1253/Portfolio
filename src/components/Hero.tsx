@@ -39,7 +39,7 @@ export function Hero() {
                 <Github size={32} />
               </a>
               <a 
-                href="https://www.linkedin.com/in/Vanity" 
+                href="https://www.linkedin.com/in/dev-mondal/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="View Dev Mondal's LinkedIn profile"
