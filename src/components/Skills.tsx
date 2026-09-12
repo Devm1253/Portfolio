@@ -10,12 +10,12 @@ export function Skills() {
     {
       title: "Frameworks & Libraries",
       icon: Layers,
-      skills: ["React Native", "Django", "Django REST Framework", "Streamlit", "Tailwind CSS"]
+      skills: ["React Native", "Django", "Django REST Framework", "JavaFX", "Tailwind CSS"]
     },
     {
-      title: "AI & Data Tools",
+      title: "AI & Cloud Integrations",
       icon: Sparkles,
-      skills: ["Claude API", "Gemini API", "NLP", "TF-IDF", "Cosine Similarity", "Power BI"]
+      skills: ["Claude API", "Gemini API"]
     },
     {
       title: "Databases & Storage",
@@ -25,7 +25,7 @@ export function Skills() {
     {
       title: "Developer Tools & DevOps",
       icon: Terminal,
-      skills: ["Git", "GitHub Actions", "Docker", "Celery", "VS Code", "Vite"]
+      skills: ["Git", "GitHub Actions", "Docker", "Scene Builder", "Maven", "VS Code", "Vite"]
     }
   ];
 
