@@ -16,10 +16,16 @@ export function Projects() {
       url: "https://github.com/jaskaranbhogal/LeaseGuard"
     },
     {
-      title: "CareerMatch AI",
-      description: "Explainable NLP application comparing resumes with job descriptions using TF-IDF and cosine similarity. Calculates alignment scores, extracts technical skills, and identifies missing qualifications.",
-      technologies: ["Python", "NLP", "TF-IDF", "Streamlit", "Unit Testing"],
-      url: null
+      title: "Dealership Application",
+      description: "A desktop vehicle dealership GUI built with JavaFX and Scene Builder. Features categorised inventory filtering across SUVs, sedans, sports cars, and trucks with detailed specification views.",
+      technologies: ["Java", "JavaFX", "FXML", "Scene Builder", "Maven"],
+      url: "https://github.com/Devm1253/Dealership"
+    },
+    {
+      title: "Car Maintenance Tracker",
+      description: "A client-side vehicle tracking application to log service records, calculate maintenance costs, and generate mileage-based service interval reminders with persistent local storage.",
+      technologies: ["JavaScript", "HTML5", "CSS3", "Web Storage API", "DOM Manipulation"],
+      url: "https://github.com/Devm1253/Car-Maintenance-Tracker"
     }
   ];
 
@@ -30,7 +36,7 @@ export function Projects() {
           Projects
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {projects.map((project, index) => (
             <div 
               key={index}
